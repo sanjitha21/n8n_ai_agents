@@ -38,6 +38,7 @@ Key Features
 * Google Sheets data storage automation
 
 Output
+
 <img width="1024" height="688" alt="Screenshot 2026-05-13 000531" src="https://github.com/user-attachments/assets/293f441e-e281-4321-a6f8-7881933918a8" />
 
 
@@ -58,6 +59,7 @@ Key Features
 * Google Sheets data management
 
 Output
+
 <img width="840" height="724" alt="Screenshot 2026-05-13 000642" src="https://github.com/user-attachments/assets/96fd63b0-b64a-4274-97cd-c0302542a1a3" />
 
 ## Learning Outcomes
