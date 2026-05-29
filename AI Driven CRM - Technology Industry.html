@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/Sanjitha/Downloads/Project_technology.html#agents -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Driven CRM - Technology Industry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./AI Driven CRM - Technology Industry_files/css2" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0b1020;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1300px;
+      margin: auto;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: radial-gradient(circle at top right, #4f46e5 0%, #0b1020 45%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      background: rgba(79,70,229,0.25);
+      filter: blur(120px);
+      top: -100px;
+      right: -100px;
+      border-radius: 50%;
+    }
+
+    .hero {
+      position: relative;
+      z-index: 2;
+      animation: fadeIn 1.2s ease;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 10px 22px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.15);
+      margin-bottom: 25px;
+      font-size: 14px;
+      color: #cbd5e1;
+    }
+
+    h1 {
+      font-size: 70px;
+      line-height: 1.1;
+      margin-bottom: 25px;
+      background: linear-gradient(90deg, #ffffff, #9ca3ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      max-width: 900px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.8;
+      color: #d1d5db;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 15px 35px;
+      background: #4f46e5;
+      color: white;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      background: #6366f1;
+    }
+
+    section {
+      padding: 100px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .section-title h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .section-title p {
+      color: #cbd5e1;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.7;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px;
+      padding: 30px;
+      backdrop-filter: blur(10px);
+      transition: 0.4s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      border-color: #6366f1;
+      box-shadow: 0 0 40px rgba(99,102,241,0.25);
+    }
+
+    .card h3 {
+      margin-bottom: 18px;
+      font-size: 24px;
+    }
+
+    .card p {
+      color: #d1d5db;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 8px 16px;
+      background: rgba(99,102,241,0.15);
+      color: #a5b4fc;
+      border-radius: 999px;
+      font-size: 12px;
+      margin-bottom: 18px;
+    }
+
+    .workflow {
+      background: linear-gradient(135deg, rgba(79,70,229,0.2), rgba(15,23,42,0.9));
+      border-radius: 28px;
+      padding: 50px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .workflow h3 {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+
+    .workflow-box {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .step {
+      padding: 18px 28px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+      min-width: 180px;
+      font-weight: 500;
+    }
+
+    .arrow {
+      font-size: 28px;
+      color: #818cf8;
+    }
+
+    footer {
+      padding: 50px 0;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      color: #94a3b8;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media(max-width: 768px) {
+      h1 {
+        font-size: 42px;
+      }
+
+      .workflow-box {
+        flex-direction: column;
+      }
+
+      .arrow {
+        transform: rotate(90deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container hero">
+      <div class="badge">AI Powered CRM Automation • Technology Industry</div>
+      <h1>AI Driven CRM</h1>
+      <p>
+        An intelligent CRM automation platform designed for the Technology Industry using AI Agents,
+        Prompt Engineering, n8n Workflows, and Large Language Models. The system automates marketing,
+        customer engagement, lead qualification, ad analysis, and social media optimization.
+      </p>
+      <a href="file:///C:/Users/Sanjitha/Downloads/Project_technology.html#agents" class="btn">Explore AI Agents</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Project Overview</h2>
+        <p>
+          AI Driven CRM is designed to help technology companies automate repetitive CRM operations,
+          improve customer targeting, increase marketing efficiency, and generate high-quality leads.
+          The platform integrates AI agents with workflow automation to deliver faster and smarter business operations.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <div class="tag">Problem Statement</div>
+          <h3>Current Industry Challenge</h3>
+          <p>
+            Technology companies struggle with manual CRM processes, poor lead quality, inconsistent ad campaigns,
+            low customer engagement, and delayed marketing decisions. Traditional CRM systems lack intelligent automation.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="tag">Solution Statement</div>
+          <h3>AI Powered Automation</h3>
+          <p>
+            This project uses AI Agents powered by Prompt Engineering and workflow automation to analyze marketing content,
+            score leads, generate personalized emails, optimize social media campaigns, and automate CRM workflows.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="tag">Technologies Used</div>
+          <h3>Modern AI Stack</h3>
+          <p>
+            n8n, Mistral AI, Prompt Engineering, Google Sheets, Webhooks, Hoppscotch, REST APIs,
+            AI Chat Models, CRM Automation, and Cloud Integrations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="agents">
+    <div class="container">
+      <div class="section-title">
+        <h2>Marketing Department AI Agents</h2>
+        <p>
+          The platform contains multiple AI Agents designed specifically for the Technology Industry marketing ecosystem.
+        </p>
+      </div>
+
+      <div class="grid">
+
+        <div class="card">
+          <div class="tag">Agent 1</div>
+          <h3>Ad Copy Scoring Agent</h3>
+          <p>
+            Analyzes advertisement copies, scores them out of 10, identifies weaknesses, suggests improvements,
+            and generates optimized CTAs for better lead generation and social media performance.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="tag">Agent 2</div>
+          <h3>Lead Qualification Agent</h3>
+          <p>
+            Evaluates customer leads based on engagement, industry relevance, company size, and buying intent.
+            Automatically categorizes leads into High, Medium, and Low priority.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="tag">Agent 3</div>
+          <h3>Email Personalization Agent</h3>
+          <p>
+            Generates personalized marketing emails for technology clients using customer behavior,
+            preferences, and CRM data to increase conversion rates.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="tag">Agent 4</div>
+          <h3>Social Media Content Agent</h3>
+          <p>
+            Creates engaging LinkedIn, Twitter, and Instagram content for technology brands using AI-generated marketing strategies.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="tag">Agent 5</div>
+          <h3>Customer Sentiment Agent</h3>
+          <p>
+            Analyzes customer feedback, reviews, and comments to determine positive, negative, or neutral sentiment
+            and provides actionable business insights.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Live AI CRM Demo</h2>
+        <p>
+          Submit advertisement details directly from the website to the n8n webhook.
+          The workflow processes the data using AI and stores results automatically.
+        </p>
+      </div>
+
+      <div class="card" style="max-width: 800px; margin: auto;">
+        <form id="crmForm">
+
+          <div style="margin-bottom: 20px;">
+            <label style="display:block; margin-bottom:10px; font-weight:600;">Ad Copy</label>
+            <textarea id="ad_copy" rows="5" placeholder="Enter advertisement copy..." style="width:100%; padding:15px; border-radius:12px; border:none; background:#111827; color:white;"></textarea>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <label style="display:block; margin-bottom:10px; font-weight:600;">Target Audience</label>
+            <input type="text" id="target_audience" placeholder="Startup founders" style="width:100%; padding:15px; border-radius:12px; border:none; background:#111827; color:white;">
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <label style="display:block; margin-bottom:10px; font-weight:600;">Platform</label>
+            <select id="platform" style="width:100%; padding:15px; border-radius:12px; border:none; background:#111827; color:white;">
+              <option>LinkedIn</option>
+              <option>Instagram</option>
+              <option>Twitter</option>
+              <option>Facebook</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn">Analyze Advertisement</button>
+
+        </form>
+
+        <div id="responseBox" style="margin-top:30px; padding:20px; border-radius:18px; background:#111827; display:none; white-space:pre-wrap; line-height:1.8;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="workflow">
+        <h3>Workflow Architecture</h3>
+        <p>
+          The CRM automation process is built using n8n workflows integrated with AI models and cloud services.
+        </p>
+
+        <div class="workflow-box">
+          <div class="step">Webhook Trigger</div>
+          <div class="arrow">→</div>
+          <div class="step">Edit Fields</div>
+          <div class="arrow">→</div>
+          <div class="step">Mistral AI</div>
+          <div class="arrow">→</div>
+          <div class="step">Google Sheets CRM</div>
+          <div class="arrow">→</div>
+          <div class="step">Automated Insights</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Key Features</h2>
+        <p>
+          Intelligent features designed to improve customer relationship management using AI.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>AI Automation</h3>
+          <p>Automates repetitive CRM and marketing tasks using AI-powered workflows.</p>
+        </div>
+
+        <div class="card">
+          <h3>Prompt Engineering</h3>
+          <p>Uses optimized prompts to generate highly relevant marketing and CRM outputs.</p>
+        </div>
+
+        <div class="card">
+          <h3>Lead Intelligence</h3>
+          <p>Improves lead quality analysis and customer targeting accuracy.</p>
+        </div>
+
+        <div class="card">
+          <h3>Real-Time Processing</h3>
+          <p>Processes customer inputs instantly using webhook-based workflow automation.</p>
+        </div>
+
+        <div class="card">
+          <h3>Cloud Integration</h3>
+          <p>Integrates seamlessly with Google Sheets and AI APIs for centralized data management.</p>
+        </div>
+
+        <div class="card">
+          <h3>Scalable Architecture</h3>
+          <p>Can be upgraded into enterprise-level CRM platforms with dashboards and analytics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Future Enhancements</h2>
+        <p>
+          Future upgrades planned for enterprise-level scalability and intelligent business operations.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>AI Dashboard</h3>
+          <p>Interactive dashboards for analytics, lead tracking, and campaign monitoring.</p>
+        </div>
+
+        <div class="card">
+          <h3>Voice AI Assistant</h3>
+          <p>AI-powered voice-based CRM assistant for customer support and operations.</p>
+        </div>
+
+        <div class="card">
+          <h3>Predictive Analytics</h3>
+          <p>Predict future customer behavior and marketing performance using machine learning.</p>
+        </div>
+
+        <div class="card">
+          <h3>Multi-Platform CRM</h3>
+          <p>Integration with Salesforce, HubSpot, Zoho CRM, and Microsoft Dynamics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Lead Qualification Agent</h2>
+        <p>
+          Analyze incoming technology leads using AI to determine lead quality,
+          buying intent, and business opportunity.
+        </p>
+      </div>
+
+      <div class="card" style="max-width: 850px; margin: auto;">
+        <form id="leadForm">
+
+          <div style="margin-bottom:20px;">
+            <label style="display:block; margin-bottom:10px; font-weight:600;">Customer Name</label>
+            <input type="text" id="customer_name" placeholder="Rahul Sharma" style="width:100%; padding:15px; border-radius:12px; border:none; background:#111827; color:white;">
+          </div>
+
+          <div style="margin-bottom:20px;">
+            <label style="display:block; margin-bottom:10px; font-weight:600;">Company</label>
+            <input type="text" id="company" placeholder="TechNova" style="width:100%; padding:15px; border-radius:12px; border:none; background:#111827; color:white;">
+          </div>
+
+          <div style="margin-bottom:20px;">
+            <label style="display:block; margin-bottom:10px; font-weight:600;">Industry</label>
+            <input type="text" id="industry" placeholder="SaaS" style="width:100%; padding:15px; border-radius:12px; border:none; background:#111827; color:white;">
+          </div>
+
+          <div style="margin-bottom:20px;">
+            <label style="display:block; margin-bottom:10px; font-weight:600;">Budget</label>
+            <input type="text" id="budget" placeholder="$20,000" style="width:100%; padding:15px; border-radius:12px; border:none; background:#111827; color:white;">
+          </div>
+
+          <div style="margin-bottom:20px;">
+            <label style="display:block; margin-bottom:10px; font-weight:600;">Requirement</label>
+            <textarea id="requirement" rows="4" placeholder="AI-powered CRM automation" style="width:100%; padding:15px; border-radius:12px; border:none; background:#111827; color:white;"></textarea>
+          </div>
+
+          <button type="submit" class="btn">Analyze Lead</button>
+
+        </form>
+
+        <div id="leadResponse" style="margin-top:30px; padding:20px; border-radius:18px; background:#111827; display:none; white-space:pre-wrap; line-height:1.8;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>
+        AI Driven CRM • Technology Industry Project • Built using AI Agents, Prompt Engineering &amp; n8n Automation
+      </p>
+    </div>
+  </footer>
+
+<script>
+  const form = document.getElementById('crmForm');
+  const responseBox = document.getElementById('responseBox');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const data = {
+      ad_copy: document.getElementById('ad_copy').value,
+      target_audience: document.getElementById('target_audience').value,
+      platform: document.getElementById('platform').value
+    };
+
+    responseBox.style.display = 'block';
+    responseBox.innerHTML = 'Processing AI analysis...';
+
+    try {
+      const response = await fetch('http://localhost:5678/webhook-test/ad-copy', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.text();
+
+      responseBox.innerHTML = `<strong>AI Response:</strong><br><br>${result}`;
+
+    } catch (error) {
+      responseBox.innerHTML = 'Error connecting to n8n webhook.';
+    }
+  });
+
+
+  const leadForm = document.getElementById('leadForm');
+  const leadResponse = document.getElementById('leadResponse');
+
+  leadForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const leadData = {
+      customer_name: document.getElementById('customer_name').value,
+      company: document.getElementById('company').value,
+      industry: document.getElementById('industry').value,
+      budget: document.getElementById('budget').value,
+      requirement: document.getElementById('requirement').value
+    };
+
+    leadResponse.style.display = 'block';
+    leadResponse.innerHTML = 'Processing lead analysis...';
+
+    try {
+      const response = await fetch('http://localhost:5678/webhook/lead-qualification', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(leadData)
+      });
+
+      const result = await response.text();
+
+      leadResponse.innerHTML = `<strong>Lead Qualification Result:</strong><br><br>${result}`;
+
+    } catch (error) {
+      leadResponse.innerHTML = 'Unable to connect to n8n webhook.';
+    }
+  });
+</script>
+
+
+
+</body></html>
