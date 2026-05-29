@@ -27,6 +27,8 @@ The Ad Copy Scoring Agent is an AI-powered workflow automation project developed
 
 The system integrates webhooks, AI models, and Google Sheets automation to process advertisement data efficiently with minimal human intervention. This project demonstrates the practical implementation of Artificial Intelligence in marketing analysis, intelligent content evaluation, and automated business workflows.
 
+<img width="1718" height="878" alt="Screenshot 2026-05-12 134208" src="https://github.com/user-attachments/assets/5f043bff-2bcc-440c-880c-972a70870d6e" />
+
 Key Features
 Automated advertisement analysis
 AI-generated scoring and feedback
@@ -40,6 +42,8 @@ Google Sheets data storage automation
 The Lead Qualification Agent is an AI-powered workflow automation project developed using n8n, Generative AI, and Agentic AI concepts. The workflow automatically analyzes customer lead information and generates intelligent outputs such as lead qualification reports, customer insights, recommendations, and business analysis results.
 
 The system integrates AI models, webhooks, cloud-based automation, and Google Sheets to process lead data efficiently and support intelligent decision-making with minimal human intervention. This project demonstrates the practical implementation of Artificial Intelligence in customer analysis, workflow automation, and business process management.
+
+<img width="1684" height="916" alt="Screenshot 2026-05-12 134316" src="https://github.com/user-attachments/assets/db31de6b-dde4-49f0-9d1b-bc60b359db27" />
 
 Key Features
 Automated lead analysis and qualification
